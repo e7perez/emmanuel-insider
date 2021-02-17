@@ -1,0 +1,48 @@
+hr {
+    background-color: $darkGrey;
+}
+.navbar-nav{
+    color: $white;
+    a {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 100;
+        margin: 0px 10px;
+        span {
+            background: $green;
+            padding: 10px 25px;
+            border: 1px solid $green;
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+.navbar-nav a:hover{
+    color: $green;
+}
+.navbar-nav a span:hover{
+    color: $green;
+    background: transparent;
+}
+.hamburger-btn__container {
+    display: none;
+}
+.hamburger-btn__line {
+    height: 2px;
+    width: 40px;
+    background: $white;
+    margin: 7px;
+}
+@media only screen and (min-width: 600px){
+    .hamburger-btn__container {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px){
+    .hamburger-btn__container {
+        display: block;
+    }
+}
+@media only screen and (min-width: 992px){
+    .hamburger-btn__container {
+        display: none;
+    }
+}
