@@ -13,7 +13,6 @@ export default function Home() {
           name="keywords"
           content="stocks, cryptocurrency, bitcoin, technology, business, investing"
         />
-        <link rel="manifest" href="/favicon_package/site.webmanifest" />
         <title>Emmanuel Insider</title>
       </Head>
       <Header />
