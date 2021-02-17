@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 const Header = () => {
     return (
         <header className="header">
@@ -28,14 +29,31 @@ const Header = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="hamburger-btn__container">
+                    <button className="hamburger-btn__container" id="mobileMenu">
                         <div className="hamburger-btn__line"></div>
                         <div className="hamburger-btn__line"></div>
                         <div className="hamburger-btn__line"></div>
-                    </div>
+                    </button>
                 </div>
+                
             </nav>
             <hr></hr>
+            <div className="navbar-mobile__menu">
+                    <div className="container">
+                        <Link href="/stocks">
+                            <a className="mobile-menu__link">Stocks</a>
+                        </Link>
+                        <Link href="/cryptocurrency">
+                            <a className="mobile-menu__link">Cryptocurrency</a>
+                        </Link>
+                        <Link href="/technology">
+                            <a className="mobile-menu__link">Technology</a>
+                        </Link>
+                        <Link href="/login">
+                            <a className="mobile-menu__link">Login</a>
+                        </Link>
+                    </div>
+                </div>
         </header>
     )
 }

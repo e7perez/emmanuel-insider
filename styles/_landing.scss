@@ -1,5 +1,5 @@
 .landing-page__container {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,8 +62,8 @@ a.container-info__link:hover {
     }
 
 }
-@media only screen and (min-width: 2560px ) {
+@media only screen and (max-width: 992px ) {
     .landing-page__container {
-        height: 90vh;
+        height: 85vh;
     }
 }

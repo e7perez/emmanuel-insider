@@ -22,8 +22,14 @@ hr {
     color: $green;
     background: transparent;
 }
+
 .hamburger-btn__container {
+    border: none;
+    background: transparent;
     display: none;
+    :hover {
+        cursor: pointer;
+    }
 }
 .hamburger-btn__line {
     height: 2px;
@@ -31,6 +37,20 @@ hr {
     background: $white;
     margin: 7px;
 }
+.navbar-mobile__menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 20vh;
+    width: 100%;
+    background: $dark;
+    a {
+        display: block;
+        margin: 10px 0px;
+        color:$darkGrey;
+    }
+}
+
 @media only screen and (min-width: 600px){
     .hamburger-btn__container {
         display: block;
