@@ -32,31 +32,7 @@ a.container-info__link:hover {
     color: $white;
     border: 1px solid $green;
 }
-.container-animate {
-    position: relative;
-}
-.animate-circle__red {
-    position: absolute;
-    height: 23rem;
-    width: 23rem;
-    background: $red;
-    border-radius: 50%;
-    filter: blur(30px);
-}
-.animate-circle__green {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    height: 25rem;
-    width: 25rem;
-    background: $green;
-    border-radius: 50%;
-    filter: blur(50px);
-}
 @media only screen and (max-width: 992px){
-    .container-animate {
-        display: none;
-    }
     .landing-page__logo{
         display: none;
     }
